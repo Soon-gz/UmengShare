@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.abings.umengsharedemo.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/a"/>
+    <LinearLayout
+        android:padding="3dp"
+        android:background="#00FF00"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_qq"
+            android:layout_margin="2dp"
+            android:onClick="onClick"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="qq分享"/>
+        <Button
+            android:id="@+id/btn_wx"
+            android:layout_margin="2dp"
+            android:onClick="onClick"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="微信分享"/>
+        <Button
+            android:id="@+id/btn_wb"
+            android:layout_margin="2dp"
+            android:onClick="onClick"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="微博分享"/>
+        <Button
+            android:id="@+id/btn_wxcircle"
+            android:layout_margin="2dp"
+            android:onClick="onClick"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="朋友圈"/>
+    </LinearLayout>
+</RelativeLayout>
