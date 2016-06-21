@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/UMengShareDemo.iml" filepath="$PROJECT_DIR$/UMengShareDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UmengShare.iml" filepath="$PROJECT_DIR$/UmengShare.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
